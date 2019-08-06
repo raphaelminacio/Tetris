@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width = device-width, initial-scale = 1">
+    <title>JavaScript Tetris</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Orbitron:500&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="text">
+      <h1>Tetris Game</h1>
+    </div>
+
+    <div class="container">
+      <canvas id="my-canvas" width="375" height="625"></canvas>
+      <div id="overlay">
+        <div class="game-over">GAME OVER!</div>
+      </div>
+    </div>
+
+    <div class="score-text">
+      <h2>Score : <span id="score">0</span></h2>
+    </div>
+
+
+
+    <!-- links for the js files-->
+    <script src="tetrominoes.js"></script>
+    <script src="tetris.js"></script>
+
+  </body>
+</html>
